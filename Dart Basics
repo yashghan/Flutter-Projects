@@ -1,0 +1,43 @@
+
+ 
+// addNumbers
+
+double addNumbers(num1, num2){
+    return(num1 + num2);
+}
+
+
+
+class Person{
+  String name = 'Max';
+  int age = 30;
+}
+
+
+void main() {
+  print(addNumbers(1, 2.6));
+  addNumbers(1, 1);
+  print('Hello');
+   
+//   U can use var in flutter 
+  double firstResult;
+  firstResult = addNumbers(1, 3.6);
+  print(firstResult + 1);
+  
+  
+//   Flutter is object oriented programming
+
+  
+  
+  
+//  Encapsulated in a class 
+    //   String name = 'Max';
+    //   int age = 30;
+//
+  var p1 = Person();
+  var p2 = Person();
+  p2.name = 'Manu';
+  print(p1.name);
+  print(p2.name);
+  
+}
